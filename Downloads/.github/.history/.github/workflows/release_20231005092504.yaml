@@ -1,0 +1,10 @@
+name: release
+on: workflow_dispatch:
+
+jobs:
+  release:
+    permissions:
+      contents: write
+      issues: write
+      pull_requests: write
+    ru  

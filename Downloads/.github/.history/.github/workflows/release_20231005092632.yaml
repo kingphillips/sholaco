@@ -1,0 +1,13 @@
+name: release
+on: workflow_dispatch:
+
+jobs:
+  release:
+    permissions:
+      contents: write
+      issues: write
+      pull_requests: write
+    runs-on: ububtu-latest
+    steps:
+      - name: checkout
+        
